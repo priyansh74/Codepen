@@ -26,6 +26,11 @@ function App() {
     setTimeout(() => setPreview(srcDoc), 2000);
   },[srcDoc]);
 
+  /*
+  useEffect(() => {
+    setPreview(srcDoc);
+  },[html,css,javascript])*/
+
   return (
     <>
       <div  className="top-card">
